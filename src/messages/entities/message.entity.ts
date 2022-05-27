@@ -1,5 +1,5 @@
+import { AbstractEntity } from '@common/entities/abstract.entity';
 import { Column, Entity } from 'typeorm';
-import { AbstractEntity } from '@shared/entities/abstract.entity';
 
 @Entity()
 export class Message extends AbstractEntity {
